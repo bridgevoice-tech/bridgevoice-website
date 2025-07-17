@@ -1,0 +1,15 @@
+{
+  "redirects": [
+    {
+      "source": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "www.bridgevoice.ai"
+        }
+      ],
+      "destination": "https://bridgevoice.ai/",
+      "permanent": true
+    }
+  ]
+}
