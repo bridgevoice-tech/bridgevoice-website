@@ -12,6 +12,23 @@
   ],
   "redirects": [
     {
+      "source": "/(admin|api)/(.*)",
+      "has": [
+        {
+          "type": "header",
+          "key": "x-auth-key",
+          "value": "BridgeVoiceAccess"
+        }
+      ],
+      "destination": "/$1/$2",
+      "statusCode": 200
+    },
+    {
+      "source": "/(admin|api)/(.*)",
+      "destination": "/unauthorized.html",
+      "statusCode": 302
+    },
+    {
       "source": "/(.*)",
       "has": [
         {
