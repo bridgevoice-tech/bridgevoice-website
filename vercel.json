@@ -6,6 +6,10 @@
         {
           "key": "Strict-Transport-Security",
           "value": "max-age=63072000; includeSubDomains; preload"
+        },
+        {
+          "key": "x-vercel-debug",
+          "value": "true"
         }
       ]
     }
@@ -17,7 +21,7 @@
         {
           "type": "header",
           "key": "x-auth-key",
-          "value": "BridgeVoiceAccess"
+          "value": "BridgevoiceAccess"
         }
       ],
       "destination": "/$1/$2",
@@ -36,7 +40,7 @@
           "value": "www.bridgevoice.ai"
         }
       ],
-      "destination": "https://bridgevoice.ai/",
+      "destination": "https://bridgevoice.ai/$1",
       "permanent": true
     }
   ]
