@@ -1,1 +1,8 @@
-
+public/
+├── index.html
+├── styles.css
+├── script.js
+├── sw.js
+├── unauthorized.html
+└── admin/
+    └── index.html
