@@ -1,8 +1,32 @@
-public/
-├── index.html
-├── styles.css
-├── script.js
-├── sw.js
-├── unauthorized.html
-└── admin/
-    └── index.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>BridgeVoice</title>
+  <style>
+    body {
+      background-color: #f4f4f4;
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding-top: 100px;
+      color: #333;
+    }
+
+    h1 {
+      font-size: 48px;
+    }
+
+    p {
+      font-size: 18px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Welcome to BridgeVoice</h1>
+  <p>Real-time voice translation with AI.</p>
+
+  <script>
+    console.log("BridgeVoice website loaded");
+  </script>
+</body>
+</html>
