@@ -17,10 +17,10 @@
         {
           "type": "header",
           "key": "x-auth-key",
-          "value": "BridgeVoiceAccess"
+          "value": "BridgevoiceAccess"
         }
       ],
-      "destination": "/",
+      "destination": "/$1/$2",
       "statusCode": 200
     },
     {
@@ -36,7 +36,7 @@
           "value": "www.bridgevoice.ai"
         }
       ],
-      "destination": "https://bridgevoice.ai/",
+      "destination": "https://bridgevoice.ai/$1",
       "permanent": true
     }
   ]
